@@ -80,20 +80,21 @@
     <li><a href="#">About</a></li>
     <li><a href="#">Services</a></li>
     <li>
-        <a href="#">Offices</a>
+        <a href="#">Drie lagen model</a>
         <ul class="second-level-menu">
-            <li><a href="#">Chicago</a></li>
-            <li><a href="#">Los Angeles</a></li>
             <li>
-                <a href="#">New York</a>
+                <a href="#">Fysieke laag</a></li>
                 <ul class="third-level-menu">
-                    <li><a href="#">Information</a></li>
-                    <li><a href="#">Book a Meeting</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Moederbord en bus</a></li>
+                    <li><a href="#">Processor, kloksnelheid en verwerkingssnelheid</a></li>
+                    <li><a href="#">Randaperatuur</a></li>
+            <li>
+                <a href="#">Toepassingen laag</a>
+                <ul class="third-level-menu">
+                    <li><a href="#">Apps</a></li>
                 </ul>
             </li>
-            <li><a href="#">Seattle</a></li>
+            <li><a href="#">Logische laag</a></li>
         </ul>
     </li>
     <li><a href="#">Contact</a></li>
