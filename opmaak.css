@@ -72,7 +72,7 @@
 
     /* Make the link cover the entire list item-container */
     display: block;
-    line-height: 45px;
+    line-height: 60px;
 }
 .top-level-menu a:hover { color: #b9c7b7; }
 
