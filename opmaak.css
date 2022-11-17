@@ -3,7 +3,7 @@
     position: absolute;
     top: 0;
     right: -150px;
-    width: 150px;
+    width: 200px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -13,9 +13,9 @@
 .third-level-menu > li
 {
     height: 30px;
-    background: #999999;
+    background: #bbe8ff;
 }
-.third-level-menu > li:hover { background: #CCCCCC; }
+.third-level-menu > li:hover { background: #fff34e; }
 
 .second-level-menu
 {
@@ -33,9 +33,9 @@
 {
     position: relative;
     height: 30px;
-    background: #999999;
+    background: #b4ff7e;
 }
-.second-level-menu > li:hover { background: #CCCCCC; }
+.second-level-menu > li:hover { background: #fdc9ff; }
 
 .top-level-menu
 {
@@ -50,9 +50,9 @@
     float: left;
     height: 30px;
     width: 150px;
-    background: #999999;
+    background: #ff1919;
 }
-.top-level-menu > li:hover { background: #CCCCCC; }
+.top-level-menu > li:hover { background: #ffffff; }
 
 .top-level-menu li:hover > ul
 {
@@ -66,39 +66,15 @@
 .top-level-menu a /* Apply to all links inside the multi-level menu */
 {
     font: bold 14px Arial, Helvetica, sans-serif;
-    color: #FFFFFF;
+    color: #aa42ff;
     text-decoration: none;
     padding: 0 0 0 10px;
 
     /* Make the link cover the entire list item-container */
     display: block;
-    line-height: 30px;
+    line-height: 45px;
 }
-.top-level-menu a:hover { color: #000000; }
-
-<ul class="top-level-menu">
-    <li><a href="#">About</a></li>
-    <li><a href="#">Services</a></li>
-    <li>
-        <a href="#">Drie lagen model</a>
-        <ul class="second-level-menu">
-            <li>
-                <a href="#">Fysieke laag</a></li>
-                <ul class="third-level-menu">
-                    <li><a href="#">Moederbord en bus</a></li>
-                    <li><a href="#">Processor, kloksnelheid en verwerkingssnelheid</a></li>
-                    <li><a href="#">Randaperatuur</a></li>
-            <li>
-                <a href="#">Toepassingen laag</a>
-                <ul class="third-level-menu">
-                    <li><a href="#">Apps</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Logische laag</a></li>
-        </ul>
-    </li>
-    <li><a href="#">Contact</a></li>
-</ul>
+.top-level-menu a:hover { color: #b9c7b7; }
 
 li a {
     display: block;
