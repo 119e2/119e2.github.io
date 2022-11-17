@@ -12,7 +12,7 @@
 
 .third-level-menu > li
 {
-    height: 30px;
+    height: 40px;
     background: #bbe8ff;
 }
 .third-level-menu > li:hover { background: #fff34e; }
@@ -22,7 +22,7 @@
     position: absolute;
     top: 30px;
     left: 0;
-    width: 150px;
+    width: 200px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -72,7 +72,7 @@
 
     /* Make the link cover the entire list item-container */
     display: block;
-    line-height: 60px;
+    line-height: 30px;
 }
 .top-level-menu a:hover { color: #b9c7b7; }
 
