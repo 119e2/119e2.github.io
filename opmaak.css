@@ -95,3 +95,11 @@ body {
 h1 {
     color: orange;
 }
+
+h1 {
+    font-size: 40px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
