@@ -88,5 +88,10 @@ li a:hover {
     background-color: black;
 }
 body {
-    background-color: rgb(204, 234, 146);
+    background-color: rgb(201, 255, 94);
+    color: white;
   }
+
+h1 {
+    color: orange;
+}
